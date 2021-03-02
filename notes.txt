@@ -1,0 +1,86 @@
+Band Page - In class Node assignment
+Create a new Node application inside of your Digital Crafts folder :dc-wrench:  . 
+Run npm init
+Install express and ejs
+Create an app.js file and set up your server
+Create the following folders inside of your application: public, data, views, routes
+Create the data.json file inside of your data folder (data/data.json)
+run git init to initialize this as a git repo
+Create a .gitignore file and add the node_modules folder to it
+Create 2 routes inside of the routes folder: index.js and albums.js
+Create 2 views inside of the views folder: index.ejs and albums.ejs
+Connect your routes to your app.js file
+Connect your views folder to your app.js file
+Inside of your public folder, make an images folder (public/images)
+Find the album cover for each album in your data file and put the images in the images folder.
+Design the index.ejs page which is the front page of your application.  You can use bootstrap, flexbox or pure css. The front page is just a landing page about your artist. Here is a video of one of my student’s taylor swift site. 
+https://www.youtube.com/watch?v=6RSOrFk6Vgo
+Inside of the  data/data.json, create a json object with your favorite music artist/band with the following information:
+Album Name
+Short Name (can be used as a query parameter on url, i.e. localhost:3000/album/taylorswift  where Taylor Swift is the album name and taylorswift is the short name
+summary (short description of the album)
+artwork (album cover)
+track list
+link to where you can purchase it (optional)
+link to where you can listen to it on Spotify (optional)
+Add any other information that you want to go on your site
+The format should be an object with the key “albums”.  The value should be and array of objects.  Each object should represent an album with all of the information from above. Remember that this is a json object, not a JS object, so the keys should be strings (include quotes)
+{
+“albums”: [{  }, {  }, { } ]
+}
+Below is an example for Taylor Swi
+
+
+1. connect the site
+2. connect js, ejs, app
+3. start with names and bio.
+add pics.
+format doesnt work, switch to plain page. get that node working!!!
+node is working with names and bio, add pics.. 
+then, add spodify, you tube 
+connect 2 pages.
+add styling
+
+
+
+
+
+
+  <h3 class="text-center">Meet the Band</h3>  
+  <% rollArr.map(rollObj=> { %>
+  <ul class="nav nav-tabs">
+
+  <li class="active"><a data-toggle="tab" href="#home"><%= rollObj.name %></a></li>
+    <li><a data-toggle="tab" href="#menu1"><%= rollObj.name %></a></li>
+    <li><a data-toggle="tab" href="#menu2"><%= rollObj.name %> </a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      
+
+      <h1><%= rollObj.name %> </h1>
+      <p><%= rollObj.roll %> </p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h2><%= rollObj.name %> </h2>
+      <p><%= rollObj.roll %> </p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h2><%= rollObj.name %> </h2>
+      <p><%= rollObj.roll %> </p>
+    </div>
+    <% }) %>
+  </div>
+</div>
+
+
+
+<!-- 
+                        <a class="dropdown-item" href="/Albums">Albums</a>
+
+
+                    <% albums.forEach(albumObj => { %>
+                        <a class="dropdown-item" href="/Albums/<%= albumObj.shortname %>"><%= albumObj.albumname %> </a>
+                    <% }) %> -->
+trying new repo

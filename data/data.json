@@ -1,0 +1,55 @@
+{
+
+    "albums": [{
+        "name": "Issues",
+        "shortname": "Black Diamonds",
+        "albumname" : "Black Diamonds(EP)",
+        "summary" : "The majority of the band's members originated from ex-members of Woe, Is Me, being Tyler Carter, Michael Bohn, Cory Ferris and Ben Ferris. After they left their previous band, they recorded and released this debut EP. Later in 2014, Josh Manuel replaced Case Snedecor on drums, moving on to record the full titled Issues album. The lead single, titled 'King of Amarillo,' was released on October 2, 2012, along with a lyric video.",
+        "artwork": ["download.jpeg"],
+        "tracklist": "1. Black Diamonds<br>2. King of Amarillo<br>3. The Worst of Them<br>4. Princeton Ave<br>5.'Love, Sex, Riot' (featuring Chris Fronzak)<br>6.'Her Monologue'(includes hidden track 'Embrace Your Issues')",
+        "appleMusic":"https://music.apple.com/us/album/black-diamonds-ep/574671280",
+        "spotify":"https://open.spotify.com/album/58bBnAF4EEBQS7UBD2Unqx"
+    
+    },{
+        "name": "Issues",
+        "shortname": "Issues_album",  
+        "albumname" : "Issues(self titled)",
+        "summary": "Issues is the self-titled debut studio album by American metalcore band Issues. Released on February 18, 2014 on Rise Records, the album debuted at number 9 on the Billboard 200, selling over 22,000 copies in its first week. The album was produced by Kris Crummett, Matt Malpass, and the group's keyboardist and disc jockey Tyler 'Scout' Acord.",
+        "artwork": ["download (1).jpeg"],
+        "tracklist": "1.Sad Ghost<br>2.Mad at Myself<br>3.Life of a Nine<br>4.The Langdon House<br>5.Late<br>6.Old Dena<br>7.Stingray Affliction<br>8.Never Lose Your Flames<br>9.Personality Cult<br>10.Tears on the Runway Pt.2<br>11.The Settlement<br>12.Disappear('Remember When')",
+        "appleMusic":"https://music.apple.com/us/album/issues/785638438",
+        "spotify":"https://open.spotify.com/album/4QcmmnbRxQYFwiMcqANYB7"
+    
+    },{
+        "name": "Issues",
+        "shortname": "Diamond Dreams (EP)",
+        "albumname" : "Diamond Dreams (EP)",
+        "summary": "The majority of the band's members originated from ex-members of Woe, Is Me, being Tyler Carter, Michael Bohn, Cory Ferris and Ben Ferris.",
+        "artwork" : ["download (2).jpeg"],
+        "tracklist": "1.Hooligans<br>2.Disappear<br>3.King Of Amarillo<br>4.Princeton Ave<br>5.Diamond Dreams<br>6.NLYF x Neck Deep<br>7.Tears On The Runway<br>8.The Worst Of Them",
+        "appleMusic": "https://music.apple.com/us/album/diamond-dreams/939830012",
+        "spotify": "https://open.spotify.com/album/2Lx9GdZHRcmZkxeRlus7Ew"
+        
+    },{
+        "name": "Issues",
+        "shortname": "Headspace",
+        "albumname" : "Headspace",
+        "summary": "Headspace is the second full-length studio album by American metalcore band Issues. Released on May 20, 2016 on Rise Records, the band recruited Kris Crummett once more to produce the album. It is their final studio album to feature original member and co-vocalist Michael Bohn before his departure in January 2018, and is their first release since the departure of keyboardist and disc jockey Tyler 'Scout' Acord. Despite this, Acord performs synthesizers and production on the album, and appears in the music video for its first single 'The Realest'. The album showcases the group's experimental approach to their signature metalcore-contemporary R&B hybrid sound, exploring elements of nu metal, pop, hip hop and funk.",
+        "artwork" : ["Issues_Headspace.jpg"],
+        "tracklist": "1.The Realest<br>2.Home Soon<br>3.Lost-N-Found (On A Roll)<br>4.Yung & Dum<br>5.Made To Last<br>6.Flojo<br>7.Hero<br>8.Coma<br>9.Rank Rider<br>10.Blue Wall<br>11.Someone Who Does<br>12.I Always Knew<br>13.Slow Me Down",
+        "appleMusic":"https://music.apple.com/us/album/headspace/1094273185",
+        "spotify":"https://open.spotify.com/album/12C1vD98wJEXUa0ro3614h"
+    
+    },{
+        "name": "Issues",
+        "shortname": "Beautiful Oblivion",
+        "albumname" : "Beautiful Oblivion",
+        "summary": "Beautiful Oblivion is the third studio album by American metal band Issues, released on October 4, 2019, on Rise Records. It serves as a follow-up to their second studio album, Headspace (2016) and was produced by Howard Benson. It is also the first album to not feature unclean vocalist Michael Bohn since his departure in 2018, as well as the final album to feature clean vocalist Tyler Carter. The album showcases the group's progression of experimenting with other musical styles and influences, using elements of nu metal, progressive metal and djent, and influences of neo-soul, R&B, funk, electronica and pop.",
+        "artwork" : ["beautiful_oblivion.jpeg"],
+        "tracklist": "1.Here’s To You<br>2.Drink About It<br>3.Find Forever<br>4.Tapping Out<br>5.Without You<br>6. Rain<br>7. Downfall<br>8. Second Best<br>9. Get It Right<br>10. Flexin<br> 11. No Problem (Keep It Alive)<br>12. Your Sake<br>13. Beautiful Oblivion",
+        "appleMusic":"https://music.apple.com/us/album/beautiful-oblivion/1474784808",
+        "spotify":"https://open.spotify.com/album/3a80X6BUzwOJXrwA6TSc3J"
+    
+    }]
+
+}

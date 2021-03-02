@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  
+  <%- include("partials/template/head.ejs") %>
+</head>
+
+<body>
+
+  <div class="container-fluid ">
+    <%- include("partials/content/header.ejs")  %>
+          <!-- Container (The Band Section) -->
+    <div id="band" class="container pt-20 text-center">
+      <h1><strong>ISSUES</strong></h1>
+      <h3><em>Meet the Band</em></h3>
+      <p><b>Issues is an American rock band based in Atlanta, Georgia, founded in 2012. The band currently consists of guitarist and vocalist AJ Rebollo, bassist and vocalist Skyler Acord, and drummer Josh Manuel. They are known for their combination of metalcore, nu metal, pop and contemporary R&B.</b><p>
+        <div class="row">
+          <% bandInfo.forEach(bandObj=> { %>
+            <div class="col-sm-4">
+              <p class="text-center"><b><%= bandObj.name %> </b></p>
+              <a href="#demo" data-toggle="collapse">
+              <img src="/images/<%= bandObj.picture %>" class="img-circle picture" alt="Random Name" width="255" height="255">
+              </a>
+                <div id="demo" class="collapse">
+                <p><%= bandObj.roll %> </p>
+                </div>
+              </div>
+              <% }) %>
+            
+            <!--footer-->
+          </div>
+      </div>
+    </div>
+  <div class="row pt-5">  
+    <div class="jumbotron d-none d-lg-block width-100" style="height:400px; background-image: url('images/anglebg.jpeg'); background-size: 100%; font-size: 80px; color: rgb(255, 255, 255)">
+  </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
